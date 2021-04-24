@@ -1,0 +1,35 @@
+<header class="w-100 menu bg-dark">
+  <div class="container">
+    <h1>This is Angular Header application</h1>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              [routerLink]="['/', 'Digital/Home']"
+              class="nav-link"
+              [routerLinkActive]="['activeMainMenu']"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              [routerLink]="['/', 'Digital/About']"
+              class="nav-link"
+              [routerLinkActive]="['activeMainMenu']"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              [routerLink]="['/', 'Console']"
+              class="nav-link"
+              [routerLinkActive]="['activeMainMenu']"
+              >Console</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
